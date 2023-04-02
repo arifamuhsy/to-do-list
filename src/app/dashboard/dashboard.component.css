@@ -1,0 +1,14 @@
+.btn-custom{
+    color: #fff;
+    background-color: #16ABF8;
+    border-color: #16ABF8;
+    width: 170px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image-1
+{
+    max-width: 500px;
+}
