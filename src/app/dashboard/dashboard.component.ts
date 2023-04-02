@@ -7,21 +7,21 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent  {
   faCoffee = faCoffee;
   faPlus = faPlus;
 
-  constructor(private todoService: TodoService){}
-  todo?: Todo[];
+  // constructor(private todoService: TodoService){}
+  // todo?: Todo[];
 
-  getAllToDo(){
-    this.todoService.getAllToDo().subscribe(data=>{
-      this.todo = data;
-      console.log(this.todo);
-    });
-  }
+  // getAllToDo(){
+  //   this.todoService.getAllToDo().subscribe(data=>{
+  //     this.todo = data;
+  //     console.log(this.todo);
+  //   });
+  // }
 
-  ngOnInit(): void {
-    this.getAllToDo();
-  }
+  // ngOnInit(): void {
+  //   this.getAllToDo();
+  // }
 }
